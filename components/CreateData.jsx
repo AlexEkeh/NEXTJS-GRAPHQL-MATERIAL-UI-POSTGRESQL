@@ -14,6 +14,7 @@ const CreateUser = ({ onSubmit }) => {
         rows={5}
         margin="normal"
         value={name}
+        onChange={(e) => setName(e.target.value)}
       />
        <TextField
         fullWidth
@@ -23,6 +24,7 @@ const CreateUser = ({ onSubmit }) => {
         rows={5}
         margin="normal"
         value={email}
+        onChange={(e) => setEmail(e.target.value)}
       />
       <Button variant="contained" color="primary" type="submit">
         Submit
