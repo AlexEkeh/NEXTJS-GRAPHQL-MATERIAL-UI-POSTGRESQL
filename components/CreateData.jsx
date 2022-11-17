@@ -1,6 +1,9 @@
 import { TextField, Button } from "@mui/material";
+import { useState } from 'react'
 
 const CreateUser = ({ onSubmit }) => {
+  const [ name, setName ] = useState("");
+  const [ email, setEmail ] = useState("");
   return (
     <form onSubmit={onSubmit}>
       <TextField
@@ -10,7 +13,7 @@ const CreateUser = ({ onSubmit }) => {
         multiline
         rows={5}
         margin="normal"
-        name="name"
+        value={name}
       />
        <TextField
         fullWidth
@@ -19,7 +22,7 @@ const CreateUser = ({ onSubmit }) => {
         multiline
         rows={5}
         margin="normal"
-        name="email"
+        value={email}
       />
       <Button variant="contained" color="primary" type="submit">
         Submit
