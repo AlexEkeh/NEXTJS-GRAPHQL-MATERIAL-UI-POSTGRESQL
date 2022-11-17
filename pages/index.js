@@ -48,7 +48,7 @@ const Home = () => {
       variables: {
         id: editId,
         name: e.target.name.value,
-        email: e.target.email.value,
+        email: e.target.name.value,
       },
     });
   };
