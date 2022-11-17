@@ -47,8 +47,8 @@ const Home = () => {
     updateUser({
       variables: {
         id: editId,
-        name: e.target.name.value,
-        email: e.target.name.value,
+        name: e.target.value,
+        email: e.target.value,
       },
     });
   };
