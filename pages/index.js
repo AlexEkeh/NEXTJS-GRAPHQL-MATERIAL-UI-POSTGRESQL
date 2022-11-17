@@ -21,7 +21,7 @@ const Home = () => {
   const onSubmit = (e) => {
     e.preventDefault();
     createUser({
-      variables: { name: e.target.name.value, email: e.target.name.value },
+      variables: { name: e.target.value, email: e.target.value },
     });
   };
 
