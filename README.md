@@ -39,3 +39,7 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 Instruction
 
 Simple create a .env file in the root directory and change your POSTGRES Database Details in the instruction provided in the .en.local.example file
+
+
+
+## APPLICATION WAS BUILT WITH GRAPHQL, NEXTJS, MATERIAL UI 5, AND POSTGRES DATBASE USING PRISMA AS AN ORM.
